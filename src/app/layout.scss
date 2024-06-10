@@ -1,0 +1,15 @@
+#app {
+    @include flex(column);
+    height: 100%;
+    margin: auto;
+}
+
+.main {
+    @include flex();
+    @include position(relative);
+    height: 100%;
+    overflow: hidden;
+    color: #181818;
+    background: #f3f3f3;
+    z-index: 1;
+}
